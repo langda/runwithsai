@@ -73,7 +73,7 @@
     <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
   </head>
-
+  r
   <body>
     <!-- Page loading spinner -->
     <div class="page-loading active">
@@ -85,14 +85,17 @@
 
     <!-- Page wrapper for sticky footer -->
     <main class="page-wrapper">
-      <!-- Navbar -->
       <header
         class="header navbar navbar-expand-lg bg-light shadow-sm fixed-top"
       >
-        <!-- Navbar content -->
         <div class="container px-3">
           <a href="index.html" class="navbar-brand pe-3">
-            <img src="assets/img/logo.svg" width="47" alt="RunWithSAI" />
+            <img
+              id="logo"
+              src="assets/img/svg/sai_logo_black.svg"
+              width="47"
+              alt="RunWithSAI"
+            />
             RunWithSAI
           </a>
           <div id="navbarNav" class="offcanvas offcanvas-end">
@@ -147,7 +150,7 @@
           </button>
           <a
             href="https://www.bookme.plus/organizers/41"
-            class="btn btn-primary btn-sm fs-sm rounded d-none d-lg-inline-flex"
+            class="btn btn-danger btn-sm fs-sm rounded d-none d-lg-inline-flex"
             target="_blank"
             rel="noopener"
           >
@@ -190,66 +193,36 @@
               class="position-relative zindex-5 text-center text-lg-start px-3 px-lg-0 py-xl-4 py-xxl-5 mt-lg-3 mx-auto mx-lg-0"
               style="max-width: 530px"
             >
-              <h2 class="h3 text-primary">Nov 22, 2025</h2>
-              <h1 class="display-1 pb-lg-3 mb-3">Run With Sai</h1>
-              <!-- <div class="d-flex justify-content-center justify-content-lg-start text-start mb-2">
-                  <i class="bx bx-map fs-4 text-primary me-2"></i>
-                  <div class="fs-xl">Koh Ker Temple,<br>Siem Reap, Cambodia</div>
-                </div> -->
+              <h1 class="display-3 pb-lg-3 mb-3 welcome-heading">
+                We extend a warm welcome to
+                <span class="text-dark fw-semibold">Run With Sai</span>.
+              </h1>
               <div
                 class="d-flex flex-column flex-sm-row justify-content-center justify-content-lg-start py-4 py-lg-5"
               >
                 <a
                   href="https://www.bookme.plus/organizers/41"
-                  class="btn btn-primary shadow-primary btn-lg me-sm-3 me-xl-4 mb-3"
+                  class="btn btn-danger shadow-primary btn-lg me-sm-3 me-xl-4 mb-3"
                   >Buy Ticket</a
                 >
                 <a
                   href="#all_events"
-                  class="btn btn-outline-primary btn-lg mb-3"
+                  class="btn btn-outline-danger btn-lg mb-3"
                 >
                   <i class="bx bx-calendar-check fs-xl me-2 ms-n1"></i>
-                  Explore More
+                  View Event
                 </a>
               </div>
-              <!-- <div class="d-flex align-items-center justify-content-center justify-content-lg-start text-start pb-2 pt-lg-2 pb-xl-0 pt-xl-5 mt-xxl-5">
-                  <div class="d-flex me-3">
-                    <div class="d-flex align-items-center justify-content-center bg-light rounded-circle" style="width: 52px; height: 52px;">
-                      <img src="assets/img/avatar/08.jpg" class="rounded-circle" width="48" alt="Avatar">
-                    </div>
-                    <div class="d-flex align-items-center justify-content-center bg-light rounded-circle ms-n3" style="width: 52px; height: 52px;">
-                      <img src="assets/img/avatar/40.jpg" class="rounded-circle" width="48" alt="Avatar">
-                    </div>
-                    <div class="d-flex align-items-center justify-content-center bg-light rounded-circle ms-n3" style="width: 52px; height: 52px;">
-                      <img src="assets/img/avatar/09.jpg" class="rounded-circle" width="48" alt="Avatar">
-                    </div>
-                  </div>
-                  <span class="fs-sm"><span class="text-primary fw-semibold">400+</span> attendees are already with us</span>
-                </div> -->
             </div>
           </div>
         </div>
         <div
           class="position-absolute d-none d-lg-block bottom-0 start-0 w-100 zindex-5 pb-xxl-5"
-        >
-          <!-- <div class="container pb-4 mb-3 mb-xxl-0">
-            <a
-              href="#speakers"
-              class="d-table text-light opacity-80 text-decoration-none w-auto py-4"
-              data-scroll
-              data-scroll-offset="70"
-            >
-              <span class="d-flex align-items-center">
-                Scroll for more
-                <i class="bx bx-down-arrow-circle fs-3 ms-2"></i>
-              </span>
-            </a>
-          </div> -->
-        </div>
+        ></div>
       </section>
 
       <!-- Sponsors -->
-      <section class="position-relative bg-dark py-5">
+      <section id="sponsors" class="position-relative bg-dark py-5">
         <div
           class="position-absolute top-0 start-0 w-100 h-100"
           style="background-color: rgba(255, 255, 255, 0.05)"
@@ -294,7 +267,7 @@
               <div class="swiper-slide">
                 <a href="#" class="d-block py-3">
                   <img
-                    src="assets/img/sponsors/bookmeplus.jpeg"
+                    src="assets/img/sponsors/សសយក.png"
                     class="d-block mx-auto"
                     width="115"
                     alt="Brand"
@@ -305,7 +278,7 @@
               <div class="swiper-slide">
                 <a href="#" class="d-block py-3">
                   <img
-                    src="assets/img/sponsors/kk_running_club.png"
+                    src="assets/img/sponsors/វប្បធម៍.png"
                     class="d-block mx-auto"
                     width="115"
                     alt="Brand"
@@ -316,7 +289,7 @@
               <div class="swiper-slide">
                 <a href="#" class="d-block py-3">
                   <img
-                    src="assets/img/sponsors/run_with_sai.jpg"
+                    src="assets/img/sponsors/គន្ធបុប្ផា.png"
                     class="d-block mx-auto"
                     width="115"
                     alt="Brand"
@@ -327,7 +300,7 @@
               <div class="swiper-slide">
                 <a href="#" class="d-block py-3">
                   <img
-                    src="assets/img/sponsors/rabbit.png"
+                    src="assets/img/sponsors/ក្រសួងទេសចរណ៍.png"
                     class="d-block mx-auto"
                     width="115"
                     alt="Brand"
@@ -338,7 +311,7 @@
               <div class="swiper-slide">
                 <a href="#" class="d-block py-3">
                   <img
-                    src="assets/img/sponsors/sabay.png"
+                    src="assets/img/sponsors/bookmeplus.png"
                     class="d-block mx-auto"
                     width="115"
                     alt="Brand"
@@ -349,7 +322,7 @@
               <div class="swiper-slide">
                 <a href="#" class="d-block py-3">
                   <img
-                    src="assets/img/sponsors/សសយក.jpg"
+                    src="assets/img/sponsors/angkor_hospital.png"
                     class="d-block mx-auto"
                     width="115"
                     alt="Brand"
@@ -368,27 +341,25 @@
         <div class="row pt-xl-2 pb-md-3 align-items-center">
           <div class="col-lg-6 mb-4 mb-lg-0">
             <h2 class="h1 text-center text-sm-start mb-4">ABOUT US</h2>
-            <h6 class="fs-4 text-center text-sm-start mb-4">
-              We extend a warm welcome to
-              <span class="text-primary fw-semibold">Run With Sai</span>.
-            </h6>
             <p class="pb-2 pb-lg-4 pb-xl-5 mb-3">
-              Run With Sai originally started as a
-              <span class="text-primary fw-semibold"
-                >"Charity Run With Sai"</span
-              >
-              2408KM across Cambodia, an initiative of one person, with the
-              support of everyone who shared the same aim for a good cause.
+              Run With Sai originally started as a "Charity Run With Sai" 2408KM
+              across Cambodia, an initiative of one person, with the support of
+              everyone who shared the same aim for a good course together.
               That’s how we came together as a group—Run With Sai, also known as
               Sai Force—to organize running events at heritage sites and local
               destinations in Cambodia. Our goal is to introduce both local and
               international runners to experience the beautiful places of
               Cambodia.
             </p>
+            <p>
+              "It just needs one person to start and with support from everyone
+              who has the same aim for a good course."
+              <span class="text-danger fw-semibold">- SAI founder</span>
+            </p>
           </div>
           <div class="col-lg-6">
             <img
-              src="assets/img/team/about_us_pic.jpg"
+              src="assets/img/logo/about_us.png"
               alt="About Us Image"
               class="img-fluid rounded shadow-sm"
             />
@@ -397,7 +368,7 @@
       </section>
 
       <!-- Highlights (Video showreel) -->
-      <section class="bg-secondary py-5">
+      <section id="recent_marathon" class="bg-secondary py-5">
         <div class="container py-2 py-md-4 py-lg-5">
           <h3 class="h1 text-center mb-lg-4">Recent Marathon Highlights</h3>
           <p class="fs-lg text-muted text-center mb-4 mb-lg-5">
@@ -433,14 +404,14 @@
         <div class="row mt-xl-2 mb-xl-3 pb-3 py-md-4 py-lg-5">
           <div class="col-12">
             <h2
-              class="h1 text-center text-sm-start pb-2 pb-lg-0 mb-4 mb-lg-5 text-primary"
+              class="h1 text-center text-sm-start pb-2 pb-lg-0 mb-4 mb-lg-5 text-dark"
             >
               All Events
             </h2>
           </div>
           <div class="col-lg-3 mb-4">
             <div
-              class="nav flex-nowrap flex-lg-column nav-pills"
+              class="nav flex-nowrap flex-lg-column red-nav-pills"
               role="tablist"
               aria-orientation="vertical"
             >
@@ -480,76 +451,203 @@
                 role="tabpanel"
                 aria-labelledby="previous-events-tab"
               >
-                <div class="border-top pt-5 mt-4">
-                  <h3 class="text-primary mb-4 font-weight-bold">
+                <div class="border-bottom pb-4">
+                  <h3 class="text-dark mb-4 font-weight-bold">
                     Our Previous Projects (2020-2024)
                   </h3>
                   <div class="row">
-                    <div class="col-lg-6">
-                      <h4 class="text-success mb-3">Charity Projects</h4>
-                      <ul class="list-unstyled">
-                        <li class="mb-2">
-                          <strong>2020:</strong> Run With Sai for Charity (2408
-                          km) – Total funds raised:
-                          <span class="text-success">$500,000 USD</span>
-                        </li>
-                        <li class="mb-2">
-                          <strong>2021:</strong> Run the Sai Virtual Run – Total
-                          funds raised:
-                          <span class="text-success">$12,000 USD</span>
-                        </li>
-                        <li class="mb-2">
-                          <strong>2022:</strong> Run With Sai Phnom Penh Siem
-                          Reap (303 km) – Total funds raised:
-                          <span class="text-success">$130,313 USD</span>
-                        </li>
-                        <li class="mb-2">
-                          <strong>2024:</strong> Run by Heart (2024) – Total
-                          funds raised:
-                          <span class="text-success">$9,318.65 USD</span>
-                        </li>
-                        <li class="mb-2">
-                          <strong>2024:</strong> Million Hearts for Children
-                          (Cambodia) – Total funds raised:
-                          <span class="text-success">$46,068 USD</span>
-                        </li>
-                      </ul>
-                      <p class="font-weight-bold mt-3">
-                        <span class="text-danger"
-                          >Total raised (2020-2024): $697,699 USD</span
-                        >
-                      </p>
+                    <div class="col-lg-12">
+                      <h4 class="mb-3">Charity Projects</h4>
+                      <div class="border-bottom py-4">
+                        <div class="row py-1 py-xl-3">
+                          <div class="col-sm-4 mb-3 mb-sm-0">
+                            <div class="h5 mb-1">2020</div>
+                            <p class="text-muted mb-0">
+                              Run With Sai for Charity (2408 km)
+                            </p>
+                          </div>
+                          <div class="col-sm-8">
+                            <h5 class="mb-0">
+                              Total funds raised: <span>$500,000 USD</span>
+                            </h5>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="border-bottom py-4">
+                        <div class="row py-1 py-xl-3">
+                          <div class="col-sm-4 mb-3 mb-sm-0">
+                            <div class="h5 mb-1">2021</div>
+                            <p class="text-muted mb-0">
+                              Run the Sai Virtual Run
+                            </p>
+                          </div>
+                          <div class="col-sm-8">
+                            <h5 class="mb-0">
+                              Total funds raised: <span>$12,000 USD</span>
+                            </h5>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="border-bottom py-4">
+                        <div class="row py-1 py-xl-3">
+                          <div class="col-sm-4 mb-3 mb-sm-0">
+                            <div class="h5 mb-1">2022</div>
+                            <p class="text-muted mb-0">
+                              Run With Sai Phnom Penh Siem Reap (303 km)
+                            </p>
+                          </div>
+                          <div class="col-sm-8">
+                            <h5 class="mb-0">
+                              Total funds raised: <span>$130,313 USD</span>
+                            </h5>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="border-bottom py-4">
+                        <div class="row py-1 py-xl-3">
+                          <div class="col-sm-4 mb-3 mb-sm-0">
+                            <div class="h5 mb-1">2024</div>
+                            <p class="text-muted mb-0">
+                              Run by Heart (03.02.2025)
+                            </p>
+                          </div>
+                          <div class="col-sm-8">
+                            <h5 class="mb-0">
+                              Total funds raised: <span>$9,318.65 USD</span>
+                            </h5>
+                            <p class="text-muted mb-0">
+                              500 participants, including 111 autistic students
+                              from Rabbit School Organisation, 26 teachers, 101
+                              parents, over 200 donations, 18 UYFC members,
+                              partners, sponsors, and the Run With Sai team.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="border-bottom py-4">
+                        <div class="row py-1 py-xl-3">
+                          <div class="col-sm-4 mb-3 mb-sm-0">
+                            <div class="h5 mb-1">2024</div>
+                            <p class="text-muted mb-0">
+                              Million Hearts for Children (Cambodia)
+                            </p>
+                          </div>
+                          <div class="col-sm-8">
+                            <h5 class="mb-0">
+                              Total funds raised: <span>$46,068 USD</span>
+                            </h5>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="pt-4">
+                        <div class="row pt-1 pt-xl-3">
+                          <div class="col-sm-4 mb-3 mb-sm-0">
+                            <div class="h5 mb-1">Total</div>
+                          </div>
+                          <div class="col-sm-8">
+                            <h5 class="mb-0">
+                              Total raised (2020-2024):
+                              <span>$697,699 USD</span>
+                            </h5>
+                          </div>
+                        </div>
+                      </div>
                     </div>
+                  </div>
+                </div>
 
-                    <div class="col-lg-6">
-                      <h4 class="text-warning mb-3">Sport Events</h4>
-                      <ul class="list-unstyled">
-                        <li class="mb-2">
-                          <strong>2023:</strong> Preah Vihear Temple RUN (First
-                          Edition) – Over 800 participants
-                        </li>
-                        <li class="mb-2">
-                          <strong>2023:</strong> The Kep Sea-Mountain RUN – Over
-                          500 participants
-                        </li>
-                        <li class="mb-2">
-                          <strong>2024:</strong> Preah Vihear Temple RUN (2nd
-                          Edition) – Approx. 1000 participants
-                        </li>
-                        <li class="mb-2">
-                          <strong>2024:</strong> KOH KER HERITAGE TRAIL – 1,117
-                          participants
-                        </li>
-                        <li class="mb-2">
-                          <strong>2024:</strong> The Koh Kong Independence Day
-                          Marathon – 1,199 participants
-                        </li>
-                      </ul>
-                      <p class="font-weight-bold mt-3">
-                        <span class="text-danger"
-                          >Total participants (2024): 4,616 people</span
-                        >
-                      </p>
+                <div class="border-bottom pb-4">
+                  <h4 class="mb-3">Sport Events</h4>
+                  <div class="border-bottom py-4">
+                    <div class="row py-1 py-xl-3">
+                      <div class="col-sm-4 mb-3 mb-sm-0">
+                        <div class="h5 mb-1">2023</div>
+                        <p class="text-muted mb-0">
+                          Preah Vihear Temple RUN (First Edition)
+                        </p>
+                      </div>
+                      <div class="col-sm-8">
+                        <h5 class="mb-0">Over 800 participants</h5>
+                        <p class="text-muted mb-0">
+                          Run to celebrate and witness 15 years of UNESCO World
+                          Heritage Site.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="border-bottom py-4">
+                    <div class="row py-1 py-xl-3">
+                      <div class="col-sm-4 mb-3 mb-sm-0">
+                        <div class="h5 mb-1">2023</div>
+                        <p class="text-muted mb-0">The Kep Sea-Mountain RUN</p>
+                      </div>
+                      <div class="col-sm-8">
+                        <h5 class="mb-0">More than 500 participants</h5>
+                        <p class="text-muted mb-0">
+                          Run to commemorate Cambodia's 70th Independence Day.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="border-bottom py-4">
+                    <div class="row py-1 py-xl-3">
+                      <div class="col-sm-4 mb-3 mb-sm-0">
+                        <div class="h5 mb-1">2024</div>
+                        <p class="text-muted mb-0">
+                          Preah Vihear Temple RUN (2nd Edition)
+                        </p>
+                      </div>
+                      <div class="col-sm-8">
+                        <h5 class="mb-0">Approx. 1000 participants</h5>
+                        <p class="text-muted mb-0">
+                          Run to Celebrate and witness 16 years of UNESCO World
+                          Heritage Site.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="border-bottom py-4">
+                    <div class="row py-1 py-xl-3">
+                      <div class="col-sm-4 mb-3 mb-sm-0">
+                        <div class="h5 mb-1">2024</div>
+                        <p class="text-muted mb-0">KOH KER HERITAGE TRAIL</p>
+                      </div>
+                      <div class="col-sm-8">
+                        <h5 class="mb-0">1,117 participants</h5>
+                        <p class="text-muted mb-0">
+                          Run to commemorate the 1st anniversary of the Koh Ker
+                          Temple of World Heritage Site.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="border-bottom py-4">
+                    <div class="row py-1 py-xl-3">
+                      <div class="col-sm-4 mb-3 mb-sm-0">
+                        <div class="h5 mb-1">2024</div>
+                        <p class="text-muted mb-0">
+                          The Koh Kong Independence Day Marathon
+                        </p>
+                      </div>
+                      <div class="col-sm-8">
+                        <h5 class="mb-0">1,199 participants</h5>
+                        <p class="text-muted mb-0">
+                          Run to commemorate Cambodia's 71st Independence Day
+                          anniversary.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="pt-4">
+                    <div class="row pt-1 pt-xl-3">
+                      <div class="col-sm-4 mb-3 mb-sm-0">
+                        <div class="h5 mb-1">Total</div>
+                      </div>
+                      <div class="col-sm-8">
+                        <h5 class="mb-0">
+                          Total participants (2024): <span>4,616 people</span>
+                        </h5>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -562,314 +660,137 @@
                 role="tabpanel"
                 aria-labelledby="upcoming-events-tab"
               >
-                <div class="border-top pt-5 mt-4">
-                  <h3 class="text-primary mb-4 font-weight-bold">
+                <div class="border-bottom pb-4">
+                  <h3 class="text-dark mb-4 font-weight-bold">
                     Next Events (2025)
                   </h3>
                   <div class="row">
-                    <div class="col-lg-6">
-                      <h4 class="text-success mb-3">Charity Project</h4>
-                      <ul class="list-unstyled">
-                        <li class="mb-2">
-                          <strong>2025:</strong> RUN BY HEART 2nd Edition
-                          (Details: ...)
-                        </li>
-                      </ul>
+                    <div class="col-lg-12">
+                      <h4 class="mb-3">Charity Project</h4>
+                      <div class="border-bottom py-4">
+                        <div class="row py-1 py-xl-3">
+                          <div class="col-sm-4 mb-3 mb-sm-0">
+                            <div class="h5 mb-1">2025</div>
+                            <p class="text-muted mb-0">
+                              RUN BY HEART 2nd Edition
+                            </p>
+                          </div>
+                          <div class="col-sm-8">
+                            <h5 class="mb-0"></h5>
+                          </div>
+                        </div>
+                      </div>
                     </div>
-
-                    <div class="col-lg-6">
-                      <h4 class="text-warning mb-3">Sport Event</h4>
-                      <ul class="list-unstyled">
-                        <li class="mb-2">
-                          <strong>2025:</strong> Preah Vihear Temple Run (3rd
-                          Edition) (Details: ...)
-                        </li>
-                      </ul>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <h4 class="mb-3">Sport Event</h4>
+                      <div class="border-bottom py-4">
+                        <div class="row py-1 py-xl-3">
+                          <div class="col-sm-4 mb-3 mb-sm-0">
+                            <div class="h5 mb-1">2025</div>
+                            <p class="text-muted mb-0">
+                              Preah Vihear Temple Run (3rd Edition)
+                            </p>
+                          </div>
+                          <div class="col-sm-8">
+                            <h5 class="mb-0"></h5>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- What Our Attendees Say -->
-      <section class="bg-secondary py-5">
-        <div class="container py-2 py-md-4 py-lg-5">
-          <h2 class="h1 text-center pb-3 pb-lg-0 mb-4 mb-lg-5">
-            What Our Attendees Say
-          </h2>
-          <div
-            class="position-relative px-sm-5 mx-auto"
-            style="max-width: 976px"
-          >
-            <button
-              type="button"
-              id="prev"
-              class="btn btn-prev btn-icon btn-sm position-absolute top-50 translate-middle-y start-0 d-none d-sm-inline-flex mt-n4"
-              aria-label="Previous"
-            >
-              <i class="bx bx-chevron-left"></i>
-            </button>
-
-            <button
-              type="button"
-              id="next"
-              class="btn btn-next btn-icon btn-sm position-absolute top-50 translate-middle-y end-0 d-none d-sm-inline-flex mt-n4"
-              aria-label="Next"
-            >
-              <i class="bx bx-chevron-right"></i>
-            </button>
-
-            =
-            <div
-              class="swiper swiper-nav-onhover pt-1 mx-md-2"
-              data-swiper-options='{
-              "spaceBetween": 12,
-              "loop": true,
-              "pagination": {
-                "el": ".swiper-pagination",
-                "clickable": true
-              },
-              "navigation": {
-                "prevEl": "#prev",
-                "nextEl": "#next"
-              }
-            }'
-            >
-              <div class="swiper-wrapper pt-4 pb-3">
-                <div class="swiper-slide h-auto px-2">
-                  <figure
-                    class="card h-100 position-relative border-0 shadow-sm py-3 p-0 p-xxl-4 my-0"
-                  >
-                    <span
-                      class="btn btn-icon btn-primary btn-lg shadow-primary pe-none position-absolute top-0 start-0 translate-middle-y ms-4 ms-xxl-5"
-                    >
-                      <i class="bx bxs-quote-left"></i>
-                    </span>
-                    <blockquote class="card-body mt-2 mb-2">
-                      <p class="fs-lg mb-0">
-                        Dolor, a eget elementum, integer nulla volutpat, nunc,
-                        sit. Quam iaculis varius mauris magna sem. Egestas sed
-                        sed suscipit dolor faucibus dui imperdiet at eget.
-                        Tincidunt imperdiet quis hendrerit aliquam feugiat neque
-                        cras sed. Dictum quam integer volutpat tellus, faucibus
-                        platea. Pulvinar turpis proin faucibus at mauris.
-                        Sagittis gravida vitae porta enim, nulla arcu fermentum
-                        massa lobortis facilisis.
-                      </p>
-                    </blockquote>
-                    <figcaption
-                      class="card-footer d-flex align-items-center border-0 pt-0 mt-n2 mt-lg-0"
-                    >
-                      <img
-                        src="assets/img/avatar/14.jpg"
-                        width="60"
-                        class="rounded-circle"
-                        alt="Annette Black"
-                      />
-                      <div class="ps-3">
-                        <h6 class="fw-semibold lh-base mb-0">Annette Black</h6>
-                        <span class="fs-sm text-muted"
-                          >QA Engineer in Company Name</span
-                        >
-                      </div>
-                    </figcaption>
-                  </figure>
-                </div>
-
-                <!-- Item -->
-                <div class="swiper-slide h-auto px-2">
-                  <figure
-                    class="card h-100 position-relative border-0 shadow-sm py-3 p-0 p-xxl-4 my-0"
-                  >
-                    <span
-                      class="btn btn-icon btn-primary btn-lg shadow-primary pe-none position-absolute top-0 start-0 translate-middle-y ms-4 ms-xxl-5"
-                    >
-                      <i class="bx bxs-quote-left"></i>
-                    </span>
-                    <blockquote class="card-body mt-2 mb-2">
-                      <p class="fs-lg mb-0">
-                        Id nibh sed purus eu. Viverra eu sed quam pellentesque
-                        magna ac sit odio. Mi at interdum hendrerit neque
-                        vulputate semper vulputate. Et augue lacinia magna
-                        tempor blandit dui porttitor in senectus. Porttitor
-                        nulla in ac in quis. Et ultrices lacus, nunc at nulla eu
-                        sodales. At aliquam euismod est in praesent ornare etiam
-                        id.
-                      </p>
-                    </blockquote>
-                    <figcaption
-                      class="card-footer d-flex align-items-center border-0 pt-0 mt-n2 mt-lg-0"
-                    >
-                      <img
-                        src="assets/img/avatar/11.jpg"
-                        width="60"
-                        class="rounded-circle"
-                        alt="Jerome Bell"
-                      />
-                      <div class="ps-3">
-                        <h6 class="fw-semibold lh-base mb-0">Jerome Bell</h6>
-                        <span class="fs-sm text-muted"
-                          >Co-founder of Lorem Company</span
-                        >
-                      </div>
-                    </figcaption>
-                  </figure>
-                </div>
-
-                <!-- Item -->
-                <div class="swiper-slide h-auto px-2">
-                  <figure
-                    class="card h-100 position-relative border-0 shadow-sm py-3 p-0 p-xxl-4 my-0"
-                  >
-                    <span
-                      class="btn btn-icon btn-primary btn-lg shadow-primary pe-none position-absolute top-0 start-0 translate-middle-y ms-4 ms-xxl-5"
-                    >
-                      <i class="bx bxs-quote-left"></i>
-                    </span>
-                    <blockquote class="card-body mt-2 mb-2">
-                      <p class="fs-lg mb-0">
-                        Nec iaculis fermentum interdum habitasse feugiat massa
-                        id pellentesque. Ut porta gravida lobortis facilisis dui
-                        augue. Fringilla nunc porttitor eget dictum tempus.
-                        Lorem erat eu congue curabitur est. Pulvinar morbi
-                        pulvinar venenatis rhoncus egestas euismod massa mauris.
-                        Vestibulum nunc lectus auctor quis. Natoque lectus
-                        tortor lacus.
-                      </p>
-                    </blockquote>
-                    <figcaption
-                      class="card-footer d-flex align-items-center border-0 pt-0 mt-n2 mt-lg-0"
-                    >
-                      <img
-                        src="assets/img/avatar/13.jpg"
-                        width="60"
-                        class="rounded-circle"
-                        alt="Robert Fox"
-                      />
-                      <div class="ps-3">
-                        <h6 class="fw-semibold lh-base mb-0">Robert Fox</h6>
-                        <span class="fs-sm text-muted"
-                          >CEO of Ipsum Company</span
-                        >
-                      </div>
-                    </figcaption>
-                  </figure>
-                </div>
-              </div>
-
-              <div
-                class="swiper-pagination position-relative pt-2 pt-sm-3 mt-4"
-              ></div>
             </div>
           </div>
         </div>
       </section>
 
       <!-- Contact Us Section -->
-      <section id="contact_us" class="bg-light py-5 bg-gradient-primary">
+      <section id="contact_us" class="bg-light py-5 bg-gradient-red">
         <div class="container">
           <div class="row justify-content-center text-center mb-5 text-white">
             <div class="col-lg-8">
-              <h2 class="h1 fw-bold text-white">Contact Us</h2>
+              <h2 class="display-4 fw-bold text-white">Contact Us</h2>
               <p class="lead">
-                Get in touch with us for any queries or support regarding
+                Reach out to us for any queries or support related to
                 registration, events, marketing, or sponsorship.
               </p>
             </div>
           </div>
 
-          <div class="row">
-            <div class="col-md-6 mb-4">
-              <div
-                class="bg-white p-4 rounded-4 shadow-lg h-100"
-                style="background: rgba(255, 255, 255, 0.9)"
-              >
-                <h4 class="mb-3 text-primary fw-bold">Contact Information</h4>
-                <ul class="list-unstyled">
-                  <li class="mt-3">
-                    <i class="bi bi-envelope-fill text-primary"></i>
-                    <strong>Marketing & Sponsor Dept.:</strong>
-                    <br />
-                    <a href="mailto:Phathamounmany@gmail.com"
+          <div class="row justify-content-center">
+            <div class="col-md-8">
+              <div class="row g-4">
+                <div class="col-md-4">
+                  <div
+                    class="text-center bg-white p-4 rounded-4 shadow-sm h-100"
+                    style="transition: transform 0.3s"
+                  >
+                    <img
+                      src="assets/img/svg/mail.svg"
+                      class="me-2 text-primary"
+                      width="40"
+                    />
+                    <h6 class="mt-3 fw-bold">Email Us</h6>
+                    <p class="small text-muted mb-1">
+                      Marketing & Sponsor Dept.
+                    </p>
+                    <a
+                      href="mailto:Phathamounmany@gmail.com"
+                      class="text-decoration-none text-primary small"
                       >Phathamounmany@gmail.com</a
                     >
-                  </li>
-                  <li class="mt-3">
-                    <i class="bi bi-telephone-fill text-primary"></i>
-                    <strong>Phone:</strong>
-                    <br />
-                    <a href="#">088 998 8889</a> /
-                    <a href="#">098 530 104 </a> / <a href="#">081 800 900 </a>
-                  </li>
-                  <li class="mt-3">
-                    <i class="bi bi-geo-alt-fill text-primary"></i>
-                    <strong>Address:</strong>
-                    <br />
-                    UK condo 618, St 618, Toul Kork, Phnom Penh
-                  </li>
-                </ul>
-              </div>
-            </div>
+                  </div>
+                </div>
 
-            <div class="col-md-6 mb-4">
-              <div
-                class="bg-white p-4 rounded-4 shadow-lg h-100"
-                style="background: rgba(255, 255, 255, 0.9)"
-              >
-                <h4 class="mb-3 text-primary fw-bold">Contact Form</h4>
-                <form>
-                  <div class="mb-3">
-                    <label for="firstName" class="form-label">First Name</label>
-                    <input
-                      type="text"
-                      class="form-control border-primary"
-                      id="firstName"
-                      placeholder="Your First Name"
-                      required
-                    />
-                  </div>
-                  <div class="mb-3">
-                    <label for="lastName" class="form-label">Last Name</label>
-                    <input
-                      type="text"
-                      class="form-control border-primary"
-                      id="lastName"
-                      placeholder="Your Last Name"
-                      required
-                    />
-                  </div>
-                  <div class="mb-3">
-                    <label for="email" class="form-label">Email</label>
-                    <input
-                      type="email"
-                      class="form-control border-primary"
-                      id="email"
-                      placeholder="example@example.com"
-                      required
-                    />
-                  </div>
-                  <div class="mb-3">
-                    <label for="message" class="form-label"
-                      >Comment / Message</label
-                    >
-                    <textarea
-                      class="form-control border-primary"
-                      id="message"
-                      rows="4"
-                      placeholder="Your message here..."
-                      required
-                    ></textarea>
-                  </div>
-                  <button
-                    type="submit"
-                    class="btn btn-primary w-100 rounded-pill"
+                <div class="col-md-4">
+                  <div
+                    class="text-center bg-white p-4 rounded-4 shadow-sm h-100"
+                    style="transition: transform 0.3s"
                   >
-                    Submit
-                  </button>
-                </form>
+                    <img
+                      src="assets/img/svg/call.svg"
+                      class="me-2 text-primary"
+                      width="40"
+                    />
+                    <h6 class="mt-3 fw-bold">Call Us</h6>
+                    <p class="small text-muted mb-1">Phone Numbers</p>
+                    <a
+                      href="tel:0889988889"
+                      class="text-decoration-none text-primary d-block small"
+                      >088 998 8889</a
+                    >
+                    <a
+                      href="tel:098530104"
+                      class="text-decoration-none text-primary d-block small"
+                      >098 530 104</a
+                    >
+                    <a
+                      href="tel:081800900"
+                      class="text-decoration-none text-primary d-block small"
+                      >081 800 900</a
+                    >
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div
+                    class="text-center bg-white p-4 rounded-4 shadow-sm h-100"
+                    style="transition: transform 0.3s"
+                  >
+                    <img
+                      src="assets/img/svg/location.svg"
+                      class="me-2 text-primary"
+                      width="40"
+                    />
+                    <h6 class="mt-3 fw-bold">Visit Us</h6>
+                    <p class="small text-muted">
+                      UK condo 618, St 618, Toul Kork, Phnom Penh
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -881,14 +802,24 @@
     <footer class="footer bg-dark pt-5 pb-4 pb-lg-5" data-bs-theme="dark">
       <div class="container text-center pt-lg-3">
         <div class="navbar-brand justify-content-center text-dark mb-2 mb-lg-4">
-          <img
-            src="assets/img/logo.svg"
-            class="me-2"
-            width="60"
-            alt="RunWithSAI"
-          />
-          <span class="fs-4">RunWithSAI</span>
+          <a href="index.html" class="navbar-brand pe-3">
+            <img
+              id="logo"
+              src="assets/img/svg/sai_logo_white.svg"
+              width="47"
+              alt="RunWithSAI"
+            />
+            RunWithSAI
+          </a>
         </div>
+        <ul class="nav justify-content-center pt-3 pb-4 pb-lg-5">
+          <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="#all_events" class="nav-link">Events</a></li>
+          <li class="nav-item"><a href="#about_us" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#sponsors" class="nav-link">Sponsors</a></li>
+          <li class="nav-item"><a href="#recent_marathon" class="nav-link">Recent Marathon</a></li>
+          <li class="nav-item"><a href="#contact_us" class="nav-link">Contact Us</a></li>
+        </ul>
         <div class="d-flex justify-content-center pt-4 mt-lg-3">
           <a
             href="https://www.facebook.com/RUNWITHSAI.KH"
@@ -898,21 +829,7 @@
             <i class="bx bxl-facebook"></i>
           </a>
           <a
-            href="#"
-            class="btn btn-icon btn-secondary btn-instagram mx-2"
-            aria-label="Instagram"
-          >
-            <i class="bx bxl-instagram"></i>
-          </a>
-          <a
-            href="#"
-            class="btn btn-icon btn-secondary btn-twitter mx-2"
-            aria-label="Twitter"
-          >
-            <i class="bx bxl-twitter"></i>
-          </a>
-          <a
-            href="#"
+            href="https://www.youtube.com/@BATHAMOUN"
             class="btn btn-icon btn-secondary btn-youtube mx-2"
             aria-label="YouTube"
           >
