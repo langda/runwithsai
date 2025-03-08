@@ -12,7 +12,7 @@ function updateMetaTags(title, description, imageUrl) {
 updateMetaTags(
   "RunWithSAI - Organizer Details",
   "Join RunWithSAI for marathons and charity runs across Cambodia.",
-  "https://yourwebsite.com/assets/img/logo/about_us.png"
+  "https://runwithsai.com/assets/img/logo/about_us.png"
 );
 
 // page loading
