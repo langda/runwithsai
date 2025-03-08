@@ -1,3 +1,21 @@
+// Function to update meta tags dynamically
+function updateMetaTags(title, description, imageUrl) {
+  document.querySelector('meta[property="og:title"]').setAttribute("content", title);
+  document.querySelector('meta[property="og:description"]').setAttribute("content", description);
+  document.querySelector('meta[property="og:image"]').setAttribute("content", imageUrl);
+
+  document.querySelector('meta[name="twitter:title"]').setAttribute("content", title);
+  document.querySelector('meta[name="twitter:description"]').setAttribute("content", description);
+  document.querySelector('meta[name="twitter:image"]').setAttribute("content", imageUrl);
+}
+
+updateMetaTags(
+  "RunWithSAI - Organizer Details",
+  "Join RunWithSAI for marathons and charity runs across Cambodia.",
+  "https://yourwebsite.com/assets/img/logo/about_us.png"
+);
+
+// page loading
 (function () {
     window.onload = function () {
       const preloader = document.querySelector('.page-loading');
