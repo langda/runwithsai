@@ -62,15 +62,15 @@ themeToggle.addEventListener("change", function () {
 
 // List all image of Run by Heart
 const images = [
-  "assets/img/charity/run_by_heart/run_by_heart1.JPG",
-  "assets/img/charity/run_by_heart/run_by_heart2.JPG",
-  "assets/img/charity/run_by_heart/run_by_heart3.JPG",
-  "assets/img/charity/run_by_heart/run_by_heart4.JPG",
-  "assets/img/charity/run_by_heart/run_by_heart5.JPG",
-  "assets/img/charity/run_by_heart/run_by_heart6.JPG",
-  "assets/img/charity/run_by_heart/run_by_heart7.JPG",
-  "assets/img/charity/run_by_heart/run_by_heart8.JPG",
-  "assets/img/charity/run_by_heart/run_by_heart9.JPG"
+  "assets/img/charity/run_by_heart/run_by_heart1.jpg",
+  "assets/img/charity/run_by_heart/run_by_heart2.jpg",
+  "assets/img/charity/run_by_heart/run_by_heart3.jpg",
+  "assets/img/charity/run_by_heart/run_by_heart4.jpg",
+  "assets/img/charity/run_by_heart/run_by_heart5.jpg",
+  "assets/img/charity/run_by_heart/run_by_heart6.jpg",
+  "assets/img/charity/run_by_heart/run_by_heart7.jpg",
+  "assets/img/charity/run_by_heart/run_by_heart8.jpg",
+  "assets/img/charity/run_by_heart/run_by_heart9.jpg"
 ];
 
 let currentIndex = 0;
