@@ -60,7 +60,7 @@ themeToggle.addEventListener("change", function () {
   }
 });
 
-// List all image of Run by Heart
+// List all image of Run by Heart upcomming
 const images = [
   "assets/img/charity/run_by_heart/run_by_heart1.JPG",
   "assets/img/charity/run_by_heart/run_by_heart2.JPG",
@@ -115,6 +115,60 @@ function nextImage() {
   }
 }
 
+// List all image of Run by Heart past
+const imagesRunByHeart = [
+  "assets/img/charity/run_by_heart/run_by_heart1.JPG",
+  "assets/img/charity/run_by_heart/run_by_heart2.JPG",
+  "assets/img/charity/run_by_heart/run_by_heart3.JPG",
+  "assets/img/charity/run_by_heart/run_by_heart4.JPG",
+  "assets/img/charity/run_by_heart/run_by_heart5.JPG",
+  "assets/img/charity/run_by_heart/run_by_heart6.JPG",
+  "assets/img/charity/run_by_heart/run_by_heart7.JPG",
+  "assets/img/charity/run_by_heart/run_by_heart8.JPG",
+  "assets/img/charity/run_by_heart/run_by_heart9.jpg"
+];
+
+let currentIndexRunByHeart = 0;
+
+document.addEventListener("DOMContentLoaded", function () {
+  let visibleImagesRunByHeart = 4;
+  let remainingImagesRunByHeart = imagesRunByHeart.length - visibleImagesRunByHeart;
+
+  if (remainingImagesRunByHeart > 0) {
+    document.getElementById("remainingCountRunByHeart").innerText = `+${remainingImagesRunByHeart}`;
+  } else {
+    document.querySelector(".overlay").style.display = "none";
+  }
+});
+
+// Open modal & show selected image
+function openImageModalRunByHeart(index) {
+  currentIndexRunByHeart = index;
+  updateModalImageRunByHeart();
+  new bootstrap.Modal(document.getElementById("imageModalRunByHeart")).show();
+}
+
+// Update image & counter in modal
+function updateModalImageRunByHeart() {
+  document.getElementById("modalImageRunByHeart").src = imagesRunByHeart[currentIndex];
+  document.getElementById("imageCountRunByHeart").innerText = `${currentIndexRunByHeart + 1} / ${imagesRunByHeart.length}`;
+}
+
+// Navigate previous image
+function prevImageRunByHeart() {
+  if (currentIndexRunByHeart > 0) {
+    currentIndexRunByHeart--;
+    updateModalImage();
+  }
+}
+
+// Navigate next image
+function nextImageRunByHeart() {
+  if (currentIndexRunByHeart < imagesRunByHeart.length - 1) {
+    currentIndexRunByHeart++;
+    updateModalImageRunByHeart();
+  }
+}
 
 
 // List all image of RunWithSai Virtual Run
@@ -148,29 +202,29 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // Open modal & show selected image
 function openImageModalVirtualRun(index) {
-  currentIndex = index;
+  currentIndexVirtualRun = index;
   updateModalImageVirtualRun();
   new bootstrap.Modal(document.getElementById("imageModalVirtualRun")).show();
 }
 
 // Update image & counter in modal
 function updateModalImageVirtualRun() {
-  document.getElementById("modalImageVirtualRun").src = imagesVirtualRun[currentIndex];
-  document.getElementById("imageCountVirtualRun").innerText = `${currentIndex + 1} / ${imagesVirtualRun.length}`;
+  document.getElementById("modalImageVirtualRun").src = imagesVirtualRun[currentIndexVirtualRun];
+  document.getElementById("imageCountVirtualRun").innerText = `${currentIndexVirtualRun + 1} / ${imagesVirtualRun.length}`;
 }
 
 // Navigate previous image
 function prevImageVirtualRun() {
-  if (currentIndex > 0) {
-    currentIndex--;
+  if (currentIndexVirtualRun > 0) {
+    currentIndexVirtualRun--;
     updateModalImageVirtualRun();
   }
 }
 
 // Navigate next image
 function nextImageVirtualRun() {
-  if (currentIndex < imagesVirtualRun.length - 1) {
-    currentIndex++;
+  if (currentIndexVirtualRun < imagesVirtualRun.length - 1) {
+    currentIndexVirtualRun++;
     updateModalImageVirtualRun();
   }
 }
