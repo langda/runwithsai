@@ -7,6 +7,6 @@ Run By Heart was the charity running event where participants can run from anywh
 - Manna4Life School
 - The Rabbit School Organization
 - Safe Haven
-![420833569-3c097047-9fa4-4e5d-83f4-6768dac8a9b0.png]({{site.baseurl}}/media/420833569-3c097047-9fa4-4e5d-83f4-6768dac8a9b0.png)
+
 
 **Total fundraising: 12,000 USD.**
