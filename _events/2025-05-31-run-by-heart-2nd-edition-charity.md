@@ -18,7 +18,8 @@ images:
 ថវិកាទាំងអស់ ដែលបានមកពីការចុះឈ្មោះនឹងត្រូវបរិច្ចាគទៅអង្គការសាលារៀនទន្សាយ ដែលជាអង្គការមើលថែទាំ និងបណ្តុះបណ្តាលកុមារអូទីស្សឹម។ យើងជឿជាក់ថាព្រឹត្តិការណ៍នេះ នឹងដើរតួនាទីក្នុងការជំរុញផ្នត់គំនិតនៃការរួមចំណែកក្នុងសកម្មភាពសង្គមផងដែរ។
 
 - ចូលរួមបរិច្ចាគទៅកាន់អង្គការសាលាទន្សាយតាមរយៈ ស្កេន QR code ឬលេខគណនីធនាគាខាងក្រោម៖
-![rabbit-school-run-by-heart-qr.jpg]({{site.baseurl}}/rabbit-school-run-by-heart-qr.jpg)
+
+<img src="{{ site.baseurl }}/rabbit-school-run-by-heart-qr.jpg" alt="Rabbit School QR" style="width: 270px; height: 270px; margin-top: 20px;">
 
 
 - **គណនី (ACLEDA)**: Rabbit School-Run by Heart with Sai
@@ -73,7 +74,7 @@ All proceeds from the registration fees will be donated to Rabbit School, a scho
 
 
 - Donate to Rabbit School Organization for the future of autism kids: through account number or QR code:
-![rabbit-school-run-by-heart-qr.jpg]({{site.baseurl}}/rabbit-school-run-by-heart-qr.jpg)
+<img src="{{ site.baseurl }}/rabbit-school-run-by-heart-qr.jpg" alt="Rabbit School QR" style="width: 270px; height: 270px; margin-top: 20px;">
 
 
 - **Account Name (ACLEDA)**: Rabbit School-Run by Heart with Sai
