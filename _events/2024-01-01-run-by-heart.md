@@ -1,6 +1,5 @@
 ---
 event_title: Run by Heart (2024)
-section: Sport Events
 images:
   - media/events/run_by_heart/run_by_heart1.jpg
   - media/events/run_by_heart/run_by_heart2.jpg
