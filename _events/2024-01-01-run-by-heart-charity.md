@@ -11,7 +11,7 @@ images:
   - media/events/run_by_heart/run_by_heart8.jpg
   - media/events/run_by_heart/run_by_heart9.jpg
 ---
-#### 1. **RUN BY HEART** 
+##### 1. **RUN BY HEART** 
 
 **RUN BY HEART** was the running for charity campaign which is created to raise donations for charity and to promote healthcare through running. All proceeds from the registration run will be donated to the Rabbit School, a school for the care and training of children with autism. We believe that this event will also play a role in building the mindset of unity and social contribution.  
 
@@ -20,7 +20,9 @@ images:
 
 ---
 
-#### 2. **បេះដូងអច្ឆរិយ - Million Hearts for Children in Cambodia** 
+<h5 style="margin-top: 20px;">
+  2. <strong>បេះដូងអច្ឆរិយ - Million Hearts for Children in Cambodia</strong>
+</h5>
 
 **បេះដូងអច្ឆរិយ - Million Hearts for Children in Cambodia** was created to raise funds to support children at **Kantha Bopha Children's Hospital** and **Angkor Hospital for Children**, encourage young Cambodians to take action and contribute to our society, and to participate in the **"Celebrating Cambodia" Project** organized by the **Union of Youth Federation of Cambodia**, which will take place in December 2025.  
 

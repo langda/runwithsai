@@ -7,7 +7,7 @@
         <div class="col-md-6 mb-3">
           <div class="image-container">
             <img src="{{ image }}" alt="Event Image 4" class="img-fluid rounded"/>
-            <div class="image-overlay" onclick="openImageModal('{{ index }}')">
+            <div class="image-overlay" onclick="openImageModal('{{ section.name }}', '{{ index }}')">
               <h4 class="text-white mb-0">
                 +<span id="remainingCount">{{ total_images | minus: 4 }}</span>
                 <i class="bx bx-camera ms-2"></i>
@@ -17,9 +17,9 @@
         </div>
       {% else %}
         <div class="col">
-          <img src="{{ image }}" alt="Event Image" class="img-fluid rounded" onclick="openImageModal('{{ index }}')" />
+          <img src="{{ image }}" alt="Event Image" class="img-fluid rounded" onclick="openImageModal('{{ section.name }}', '{{ index }}')" />
         </div>
       {% endif %}
-    {% endfor %}    
+    {% endfor %}
   </div>
 </div>
