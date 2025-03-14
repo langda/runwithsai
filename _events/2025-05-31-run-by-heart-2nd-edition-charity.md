@@ -25,7 +25,8 @@ images:
 - **លេខគណនី (ACLEDA)**: 3600-05-331082-14
 
 
-### កម្មវិធី៖ 
+**កម្មវិធី៖**
+
 **1. Run by Heart Actual Run**៖ ជាការកម្មវិធីរត់ពិសេសដែលមានចម្ងាយ **៤០០ ម៉ែត្រ** ដែលធ្វើនៅ **ពហុកីឡដ្ឋានជាតិអូឡាំពិក**។ អ្នកចូលរួមត្រូវចាប់ដៃគូជាមួយកុមារអូទីហ្សឹមដើម្បីរត់ជុំវិញទីលានមួយជុំ។ អ្នកបញ្ចប់ការរត់ទាំងអស់ នឹងទទួលបានមេដាយអនុស្សាវរីយ៍។
 
 - **កាលបរិច្ឆេទ**៖ 31 ឧសភា 2025, 5:00PM
@@ -79,7 +80,8 @@ All proceeds from the registration fees will be donated to Rabbit School, a scho
 - **Account Number (ACLEDA)**: 3600-05-331082-14
 
 
-### RUN BY HEART PROGRAM:
+**RUN BY HEART PROGRAM:**
+
 **1. Run by Heart Actual Run**៖  is a special 400m race held at the Olympic National Stadium. Participants must pair with an autistic child to complete the run. All finishers will receive a medal at the finish line. 
 
 - **Date & Time:** 31 May 2025, 5:00PM
@@ -116,6 +118,3 @@ Please join our telegram group after you donated to Rabbit School. Our team will
   - **Medal Finisher**
   
 📌 AGE CATEGORIES: Participants of all categories must be **13 years** of age or older on race day
-
-
-
