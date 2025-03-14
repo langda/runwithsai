@@ -35,9 +35,9 @@ images:
 - **រយៈចម្ងាយ**៖ 400m 
 - **ចុះឈ្មោះ**៖ បរិច្ចាគទៅកាន់អង្គការសាលារៀនទន្សាយចាប់ពី **50$** ក្នុងម្នាក់ ដើម្បីចូលរួមរត់ជាមួយនឹងកុមារអូទីហ្សឹមនៅទីតាំងរត់ផ្ទាល់។ 
 
-📌សូមបញ្ជាក់ថា រាល់ការបរិច្ចាគលើសពី **៥០ ដុល្លារ** សូមដាក់ **“ឈ្មោះ និងលេខទូរស័ព្ទ”** របស់អ្នកនៅក្នុង **“Remark”** ដើម្បីក្រុមការងារទទួលបានលេខទំនាក់ទំនង ដើម្បីផ្ញើ លិខិតអញ្ជើញចូលរួមកម្មវិធី។
+📌 សូមបញ្ជាក់ថា រាល់ការបរិច្ចាគលើសពី **៥០ ដុល្លារ** សូមដាក់ **“ឈ្មោះ និងលេខទូរស័ព្ទ”** របស់អ្នកនៅក្នុង **“Remark”** ដើម្បីក្រុមការងារទទួលបានលេខទំនាក់ទំនង ដើម្បីផ្ញើ លិខិតអញ្ជើញចូលរួមកម្មវិធី។
 
-📌សូមចូលទៅក្នុងក្រុមតេឡេក្រាមរបស់យើង បន្ទាប់ពីអ្នកបានបរិច្ចាគទៅសាលាទន្សាយរួច។ ក្រុមការងារយើងខ្ញុំនឹងសម្របសម្រួលដល់លោកអ្នកក្នុងកម្មវិធី។ តំណភ្ជាប់ក្រុម Telegram៖…
+📌 សូមចូលទៅក្នុងក្រុមតេឡេក្រាមរបស់យើង បន្ទាប់ពីអ្នកបានបរិច្ចាគទៅសាលាទន្សាយរួច។ ក្រុមការងារយើងខ្ញុំនឹងសម្របសម្រួលដល់លោកអ្នកក្នុងកម្មវិធី។ តំណភ្ជាប់ក្រុម Telegram៖…
 
 - ការផ្តល់ជូនសម្រាប់អ្នកចូលរួម
   - អាវយឺតកម្មវិធីពិសេស **ចំនួន ០១**
@@ -90,7 +90,7 @@ All proceeds from the registration fees will be donated to Rabbit School, a scho
 - **Category:** 400m 
 - **To Register:** Donate to the Rabbit School from **50$** up per person
 
-📌Please note that for all donations over **$50**, please put your **"name and phone number"** in the **"Remark"** so that the team can contact you to send an invitation to the program.
+📌 Please note that for all donations over **$50**, please put your **"name and phone number"** in the **"Remark"** so that the team can contact you to send an invitation to the program.
 
 Please join our telegram group after you donated to Rabbit School. Our team will introduce and facilitate you to the program. Telegram group link: …
 
