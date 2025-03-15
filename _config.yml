@@ -1,6 +1,13 @@
-url: "" # e.g. http://example.com
-baseurl: "" # e.g. /blog
-title: "Run with Sai"
+url: "https://runwithsai.com/" 
+baseurl: ""  
+title: "Run with Sai" 
+description: "Join Run with Sai for marathons and charity events across Cambodia."
+keywords: "marathon, charity, running, angkor wat, sports events, cambodia"
+author: "Run with Sai Team"  
+
+# Open Graph and Twitter Image Defaults
+og_image: "assets/images/about_us.jpg"
+twitter_image: "assets/images/about_us.jpg"
 
 collections:
   events:
