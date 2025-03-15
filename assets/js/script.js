@@ -41,9 +41,8 @@ if (localStorage.getItem("theme") === "dark") {
 
 themeToggle.addEventListener("change", () => updateTheme(themeToggle.checked));
 
-
 // Only show "Read more" if content exceeds the maxHeight
-  document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function () {
   var eventSections = document.querySelectorAll('.content-preview');
   eventSections.forEach(function (contentDiv) {
     var readMoreBtn = contentDiv.nextElementSibling; 
@@ -70,15 +69,20 @@ themeToggle.addEventListener("change", () => updateTheme(themeToggle.checked));
   });
 });
 
+
+// open modal and show selected image for each event
+// Define currentIndex globally 
+let currentIndex = 0;
+
 // Function to open modal and show selected image for each event
 function openImageModal(sectionName, index) {
   // Get the images for the section dynamically
   const images = JSON.parse(document.getElementById(`imageModal${sectionName}`).getAttribute('data-images'));
   
-  // Initialize the current index correctly based on the selected image
-  currentIndex = index;
+  // Reset currentIndex to 0 when the modal is opened for the first time
+  currentIndex = 0;
 
-  // Update modal with the selected image
+  // Update modal with the first image (index 0)
   updateModalImage(sectionName, images);
 
   // Show the modal
