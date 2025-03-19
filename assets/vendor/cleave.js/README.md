@@ -149,7 +149,7 @@ class MyComponent extends React.Component {
     render() {
         return (
             <Cleave placeholder="Enter your credit card number"
-                options={{creditCard: true}}
+                options={% raw %}{{creditCard: true}}{% endraw %}
                 onFocus={this.onCreditCardFocus}
                 onChange={this.onCreditCardChange} />
         );
