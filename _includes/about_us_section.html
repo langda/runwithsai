@@ -1,10 +1,12 @@
 <section id="about_us" class="container py-5 my-2 my-md-4 my-lg-5">
   <div class="row pt-xl-2 pb-md-3 align-items-center">
-    <div class="col-lg-6 mb-4 mb-lg-0">
+    <div class="col-lg-6 mb-4 mb-lg-0 ">
       <h2 class="h1 text-center text-sm-start mb-4">About Us</h2>
-      {{ content | markdownify }}
+      <div  class="content fs-6">
+        {{ content | markdownify }}
+      </div>
     </div>
-    <div class="col-lg-6">
+    <div class="col-lg-6 image-container">
       <img src="assets/images/about_us.jpg" alt="About Us Image" class="img-fluid rounded shadow-sm" />
     </div>
   </div>

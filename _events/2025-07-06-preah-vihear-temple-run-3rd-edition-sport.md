@@ -1,5 +1,9 @@
 ---
+layout: event_detail 
 event_title: Preah Vihear Temple Run - 3rd Edition
+date: 2025-07-06
+year: 2025
+slug: "preah-vihear-temple-run-3rd-edition"
 section: Sport Events
 ---
 ព្រឹត្តិការណ៍រត់ **Preah Vihear Temple Run លើកទី៣** នឹងប្រព្រឹត្តទៅនៅ**ថ្ងៃទី៦ ខែកក្កដា ឆ្នាំ២០២៥** នៅតំបន់ប្រាសាទព្រះវិហារ ខេត្តព្រះវិហារ។
@@ -170,7 +174,7 @@ This information is only valid for those who ordered a bundle ticket that includ
   - After event, the pick up bus returns from the running venue at 12:00 PM back to Guest House at Sra'em Roundabout
   - **Departure Time (from Preah Vihear):** 03:00 PM
   - **Departure Location:** Sra'em Roundabout 
-  - **ឡArrival Time (at Phnom Penh):** 10:00 PM
+  - **Arrival Time (at Phnom Penh):** 10:00 PM
   - **Arrival Location:** A23A, One Park Shop House Street, Sangkat Srah Chak, Khan Daun Penh, Phnom Penh, Cambodia.
   
 🔶 About Accommodation:

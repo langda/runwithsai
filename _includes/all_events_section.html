@@ -23,17 +23,13 @@
 <section id="all_events" class="container py-5">
   <div class="row mt-xl-3 mb-xl-4 pb-4 py-md-4 py-lg-5">
     <div class="col-12">
-      <h2 class="h1 text-center text-sm-start pb-3 pb-lg-0 mb-4 mb-lg-5 text-dark">
-        All Events
-      </h2>
+      <h2 class="h1 text-center text-sm-start pb-3 pb-lg-0 mb-4 mb-lg-5 text-dark">All Events</h2>
     </div>
 
     <div class="col-lg-3 mb-4">
       <div class="nav flex-nowrap flex-lg-column red-nav-pills" role="tablist" aria-orientation="vertical">
-        <a href="#upcoming-events"
-          class="nav-link d-block w-100 rounded-3 p-4 p-xl-5 me-2 me-sm-3 me-lg-0 mb-lg-3 active"
-          id="upcoming-events-tab" data-bs-toggle="pill" role="tab" aria-controls="upcoming-events"
-          aria-selected="true">
+        <a href="#upcoming-events" class="nav-link d-block w-100 rounded-3 p-4 p-xl-5 me-2 me-sm-3 me-lg-0 mb-lg-3 active"
+          id="upcoming-events-tab" data-bs-toggle="pill" role="tab" aria-controls="upcoming-events" aria-selected="true">
           <div class="fs-xl fw-bold">UPCOMING EVENTS</div>
           <div class="fs-3">
             {% if upcoming_events_from_year and upcoming_events_to_year and upcoming_events_from_year == upcoming_events_to_year %}

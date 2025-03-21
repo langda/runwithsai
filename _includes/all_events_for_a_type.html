@@ -11,11 +11,14 @@
               <h3 class="pb-4 text-dark">{{ section.name }}</h3>
               <div class="h5 text-muted">{{ event.year }}</div>
               <h4 class="text-dark">{{ event.event_title }}</h4>
-              <div id="event-content" class="content-preview pt-2">
+              <div id="event-content" class="content-preview pt-2 fs-6">
                 {{ event.content | markdownify }}
               </div>
-              <button class="btn btn-link p-0 text-primary d-inline-block mb-3" style="display: none;">Read more</button>
-            
+              
+              <a href="{{ site.baseurl }}/events/{{ event.slug | default: event.title | slugify }}" class="btn btn-link p-0 text-primary d-inline-block mb-3">
+                Read more
+              </a>
+
               {% if images.size > 0 %}
                 {% include images.html %}
               {% endif %}

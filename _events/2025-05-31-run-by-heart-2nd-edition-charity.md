@@ -1,5 +1,9 @@
 ---
+layout: event_detail 
 event_title: Run By Heart – 2nd Edition
+date: 2025-05-31
+year: 2025
+slug: "run-by-heart-2nd-edition"
 section: Charity Projects
 images:
   - media/events/run_by_heart/run_by_heart1.jpg
