@@ -1,5 +1,9 @@
 ---
+layout: event_detail 
 event_title: '2020: Run With Sai for Charity (2408 km)'
+date: 2020-01-01
+year: 2020
+slug: "run-with-sai-for-charity"
 section: Charity Projects
 ---
 

@@ -8,13 +8,14 @@ author: "Run with Sai Team"
 # Open Graph and Twitter Image Defaults
 og_image: "assets/images/about_us.jpg"
 twitter_image: "assets/images/about_us.jpg"
+future: true
 
 collections:
   events:
     output: true
+    permalink: /events/:slug/
   supporters:
     output: true
-
 prose:
   # rooturl: ''
   media: "media"

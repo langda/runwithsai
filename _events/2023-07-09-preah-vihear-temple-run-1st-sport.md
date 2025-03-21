@@ -1,5 +1,9 @@
 ---
+layout: event_detail 
 event_title: Preah Vihear Temple RUN (First Edition)
+date: 2023-07-09
+year: 2023
+slug: "preah-vihear-temple-run-1st"
 ---
 **"PREAH VIHEAR TEMPLE RUN"** was the first edition of a running event that took place on **July 9, 2023** in the area of **Preah Vihear Temple, Preah Vihear Province**.
 

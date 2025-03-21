@@ -48,73 +48,82 @@ document.addEventListener("DOMContentLoaded", function () {
     var readMoreBtn = contentDiv.nextElementSibling; 
     var maxHeight = 300;
 
+    // Check if content exceeds maxHeight
     if (contentDiv.scrollHeight > maxHeight) {
       contentDiv.style.maxHeight = maxHeight + "px";
       contentDiv.style.overflow = "hidden";
-      readMoreBtn.style.display = "inline-block";
+      readMoreBtn.style.display = "inline-block"; 
     }
 
-    // Toggle "Read more" / "Read less"
-    readMoreBtn.addEventListener("click", function () {
-      if (contentDiv.style.maxHeight === "none") {
-        contentDiv.style.maxHeight = maxHeight + "px";
-        contentDiv.style.overflow = "hidden";
-        readMoreBtn.textContent = "Read more";
-      } else {
-        contentDiv.style.maxHeight = "none";
-        contentDiv.style.overflow = "visible";
-        readMoreBtn.textContent = "Read less";
+    // Remove the toggle functionality
+    // Instead, route to the event's detail page when "Read more" is clicked
+    readMoreBtn.addEventListener("click", function (event) {
+      event.preventDefault(); 
+      var eventUrl = readMoreBtn.getAttribute("href"); 
+      if (eventUrl) {
+        window.location.href = eventUrl;
       }
     });
   });
 });
 
+   // Function to open the image modal and display the selected image
+   function openImageModal(sectionName, index) {
+    const modalElement = document.getElementById(`imageModal${sectionName}`);
+    const images = JSON.parse(modalElement.getAttribute('data-images'));
 
-// open modal and show selected image for each event
-// Define currentIndex globally 
-let currentIndex = 0;
+    // Set the current index to the clicked image index
+    currentIndex = parseInt(index);
 
-// Function to open modal and show selected image for each event
-function openImageModal(sectionName, index) {
-  // Get the images for the section dynamically
-  const images = JSON.parse(document.getElementById(`imageModal${sectionName}`).getAttribute('data-images'));
-  
-  // Reset currentIndex to 0 when the modal is opened for the first time
-  currentIndex = 0;
-
-  // Update modal with the first image (index 0)
-  updateModalImage(sectionName, images);
-
-  // Show the modal
-  new bootstrap.Modal(document.getElementById(`imageModal${sectionName}`)).show();
-}
-
-// Function to update the modal image and counter
-function updateModalImage(sectionName, images) {
-  // Ensure the image index is within the bounds
-  if (currentIndex >= 0 && currentIndex < images.length) {
-    // Update the image source
-    document.getElementById(`modalImage${sectionName}`).src = images[currentIndex];
-
-    // Display the current image index starting from 1, not 0 (human-readable index)
-    document.getElementById(`imageCount${sectionName}`).innerText = `${currentIndex + 1} / ${images.length}`;
-  }
-}
-
-// Function to navigate to the previous image in the modal
-function prevImage(sectionName) {
-  const images = JSON.parse(document.getElementById(`imageModal${sectionName}`).getAttribute('data-images'));
-  if (currentIndex > 0) {
-    currentIndex--;
+    // Update the modal image and counter
     updateModalImage(sectionName, images);
-  }
-}
 
-// Function to navigate to the next image in the modal
-function nextImage(sectionName) {
-  const images = JSON.parse(document.getElementById(`imageModal${sectionName}`).getAttribute('data-images'));
-  if (currentIndex < images.length - 1) {
-    currentIndex++;
-    updateModalImage(sectionName, images);
+    // Show the modal
+    const modal = new bootstrap.Modal(modalElement);
+    modal.show();
   }
-}
+
+  // Function to update the modal image and counter
+  function updateModalImage(sectionName, images) {
+    if (currentIndex >= 0 && currentIndex < images.length) {
+      // Update the image source
+      document.getElementById(`modalImage${sectionName}`).src = images[currentIndex];
+
+      // Display the current image index (1-based)
+      document.getElementById(`imageCount${sectionName}`).innerText = `${currentIndex + 1} / ${images.length}`;
+    }
+  }
+
+  // Function to navigate to the previous image
+  function prevImage(sectionName) {
+    const modalElement = document.getElementById(`imageModal${sectionName}`);
+    const images = JSON.parse(modalElement.getAttribute('data-images'));
+
+    if (currentIndex > 0) {
+      currentIndex--;
+      updateModalImage(sectionName, images);
+    }
+  }
+
+  // Function to navigate to the next image
+  function nextImage(sectionName) {
+    const modalElement = document.getElementById(`imageModal${sectionName}`);
+    const images = JSON.parse(modalElement.getAttribute('data-images'));
+
+    if (currentIndex < images.length - 1) {
+      currentIndex++;
+      updateModalImage(sectionName, images);
+    }
+  }
+
+  // Initialize the modal when the page loads
+  document.addEventListener("DOMContentLoaded", function () {
+    const modalElement = document.getElementById('imageModalevent-gallery');
+    if (modalElement) {
+      const images = JSON.parse(modalElement.getAttribute('data-images'));
+      if (images.length > 0) {
+        currentIndex = 0;
+        updateModalImage('event-gallery', images);
+      }
+    }
+  });

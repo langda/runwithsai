@@ -1,5 +1,9 @@
 ---
+layout: event_detail 
 event_title: Run the Sai Virtual Run. 2021
+date: 2021-01-01
+year: 2021
+slug: "run-with-sai-virtual-run"
 section: Sport Events
 images:
   - media/events/run_with_sai_virtual_run/run_with_sai_virtual.jpg
