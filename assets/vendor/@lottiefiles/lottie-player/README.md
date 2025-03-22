@@ -253,7 +253,7 @@ export default function Home() {
           loop
           mode="normal"
           src="https://assets4.lottiefiles.com/packages/lf20_gb5bmwlm.json"
-          style={{ width: "300px", height: "300px" }}
+          style={% raw %}{{ width: "300px", height: "300px" }}{% endraw %}
         ></lottie-player>
       </main>
     </div>
