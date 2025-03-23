@@ -3,29 +3,11 @@
 
 <head>
   <meta charset="utf-8" />
-  <title>{{ page.title | default: site.title }}</title>
+  
+  <!-- Automatically generated SEO meta tags -->
+  {% seo %}
 
-  <!-- SEO Meta Tags -->
-  <meta name="description" content="{{ page.description | default: site.description }}" />
-  <meta name="keywords" content="{{ page.keywords | default: site.keywords }}" />
-  <meta name="author" content="{{ site.author }}" />
-
-  <!-- Open Graph Meta Tags -->
-  <meta property="og:title" content="{{ page.og_title | default: site.title }}" />
-  <meta property="og:description" content="{{ page.og_description | default: site.description }}" />
-  <meta property="og:image" content="{{ page.og_image | default: site.og_image }}" />
-  <meta property="og:image:alt" content="{{ page.og_image_alt | default: 'Image description' }}" />
-  <meta property="og:url" content="{{ page.url | default: site.url }}" />
-  <meta property="og:type" content="website" />
-
-  <!-- Twitter Card Meta Tags -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="{{ page.twitter_title | default: site.title }}" />
-  <meta name="twitter:description" content="{{ page.twitter_description | default: site.description }}" />
-  <meta name="twitter:image" content="{{ page.twitter_image | default: site.twitter_image }}" />
-  <meta name="twitter:image:alt" content="{{ page.twitter_image_alt | default: 'Image description' }}" />
-
-  <!-- Other meta tags and links -->
+  <!-- Other meta tags -->
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <!-- Theme switcher (color modes) -->

@@ -1,6 +1,7 @@
 ---
 layout: event_detail 
 event_title: Preah Vihear Temple Run - 3rd Edition
+short_description: "ព្រឹត្តិការណ៍រត់ **Preah Vihear Temple Run លើកទី៣** នឹងប្រព្រឹត្តទៅនៅ**ថ្ងៃទី៦ ខែកក្កដា ឆ្នាំ២០២៥** នៅតំបន់ប្រាសាទព្រះវិហារ ខេត្តព្រះវិហារ។"
 date: 2025-07-06
 year: 2025
 slug: "preah-vihear-temple-run-3rd-edition"

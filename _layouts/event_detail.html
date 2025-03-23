@@ -2,27 +2,27 @@
 <html lang="en" data-bs-theme="light">
 <head>
   <meta charset="utf-8" />
-  <title>{{ page.title }} - {{ site.title }}</title>
+  <title>{{ page.event_title }} - {{ site.title }}</title>
 
   <!-- SEO Meta Tags -->
-  <meta name="description" content="{{ page.description | default: site.description }}" />
+  <meta name="description" content="{{ page.short_description | default: site.description }}" />
   <meta name="keywords" content="{{ page.keywords | default: site.keywords }}" />
   <meta name="author" content="{{ site.author }}" />
 
   <!-- Open Graph Meta Tags -->
-  <meta property="og:title" content="{{ page.og_title | default: site.title }}" />
-  <meta property="og:description" content="{{ page.og_description | default: site.description }}" />
+  <meta property="og:title" content="{{ page.og_title | default: page.title | default: site.title }}" />
+  <meta property="og:description" content="{{ page.og_description | default: page.description | default: site.description }}" />
   <meta property="og:image" content="{{ page.og_image | default: site.og_image }}" />
-  <meta property="og:image:alt" content="{{ page.og_image_alt | default: 'Image description' }}" />
-  <meta property="og:url" content="{{ page.url | default: site.url }}" />
+  <meta property="og:image:alt" content="{{ page.og_image_alt | default: 'Event Image' }}" />
+  <meta property="og:url" content="{{ page.url | absolute_url }}" />
   <meta property="og:type" content="website" />
 
   <!-- Twitter Card Meta Tags -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="{{ page.twitter_title | default: site.title }}" />
-  <meta name="twitter:description" content="{{ page.twitter_description | default: site.description }}" />
+  <meta name="twitter:title" content="{{ page.twitter_title | default: page.title | default: site.title }}" />
+  <meta name="twitter:description" content="{{ page.twitter_description | default: page.description | default: site.description }}" />
   <meta name="twitter:image" content="{{ page.twitter_image | default: site.twitter_image }}" />
-  <meta name="twitter:image:alt" content="{{ page.twitter_image_alt | default: 'Image description' }}" />
+  <meta name="twitter:image:alt" content="{{ page.twitter_image_alt | default: 'Event Image' }}" />
 
   <!-- Other meta tags and links -->
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -56,8 +56,8 @@
 
   <!-- Custom Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@700&family=Kantumruy:wght@400;700&family=Hanuman:wght@400;700&display=swap" rel="stylesheet">
- </head>
- <body>
+</head>
+<body>
   <!-- Back to Events Button (Top Left) -->
   <div class="container-fluid py-3 bg-light">
     <div class="container">
@@ -84,25 +84,25 @@
           {{ content }}
         </div>
 
-      <!-- Event Images (if available) -->
-      {% if page.images.size > 0 %}
+        <!-- Event Images (if available) -->
+        {% if page.images.size > 0 %}
         <div class="col-12 mt-5">
           <h3 class="text-dark fw-bold mb-4">Event Gallery</h3>
           <div class="row g-4">
             {% for image in page.images limit:4 %}
-                <div class="col-md-6 mb-3">
-                  <div class="image-container">
-                    <img src="{{ site.baseurl }}/{{ image }}" alt="Event Image {{ forloop.index }}" class="img-fluid rounded" onclick="openImageModal('event-gallery', '{{ forloop.index0 }}')" />
-                    {% if forloop.last and page.images.size > 4 %}
-                        <div class="image-overlay" onclick="openImageModal('event-gallery', '{{ forloop.index0 }}')">
-                          <h4 class="text-white mb-0">
-                            +<span id="remainingCount">{{ page.images.size | minus: 4 }}</span>
-                            <i class="bx bx-camera ms-2"></i>
-                          </h4>
-                        </div>
-                    {% endif %}
-                  </div>
+              <div class="col-md-6 mb-3">
+                <div class="image-container">
+                  <img src="{{ site.baseurl }}/{{ image }}" alt="Event Image {{ forloop.index }}" class="img-fluid rounded" onclick="openImageModal('event-gallery', '{{ forloop.index0 }}')" />
+                  {% if forloop.last and page.images.size > 4 %}
+                    <div class="image-overlay" onclick="openImageModal('event-gallery', '{{ forloop.index0 }}')">
+                      <h4 class="text-white mb-0">
+                        +<span id="remainingCount">{{ page.images.size | minus: 4 }}</span>
+                        <i class="bx bx-camera ms-2"></i>
+                      </h4>
+                    </div>
+                  {% endif %}
                 </div>
+              </div>
             {% endfor %}
           </div>
         </div>
@@ -111,16 +111,16 @@
         <div id="imageModalevent-gallery" class="modal fade" tabindex="-1" aria-hidden="true" data-images='{{ page.images | jsonify }}'>
           <div class="modal-dialog modal-dialog-centered modal-lg">
             <div class="modal-content bg-transparent border-0">
-                <div class="modal-body position-relative p-0 text-center">
-                  <img id="modalImageevent-gallery" src="" class="img-fluid rounded modal-img" />
-                  <i class="bx bx-chevron-left nav-arrow left-arrow" onclick="prevImage('event-gallery')"></i>
-                  <i class="bx bx-chevron-right nav-arrow right-arrow" onclick="nextImage('event-gallery')"></i>
-                  <span id="imageCountevent-gallery" class="image-counter"></span>
-                </div>
+              <div class="modal-body position-relative p-0 text-center">
+                <img id="modalImageevent-gallery" src="" class="img-fluid rounded modal-img" />
+                <i class="bx bx-chevron-left nav-arrow left-arrow" onclick="prevImage('event-gallery')"></i>
+                <i class="bx bx-chevron-right nav-arrow right-arrow" onclick="nextImage('event-gallery')"></i>
+                <span id="imageCountevent-gallery" class="image-counter"></span>
+              </div>
             </div>
           </div>
         </div>
-      {% endif %}
+        {% endif %}
       </div>
     </div>
   </section>

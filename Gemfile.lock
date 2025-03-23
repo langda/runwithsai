@@ -326,6 +326,8 @@ PLATFORMS
 DEPENDENCIES
   faraday-retry (~> 2.2)
   github-pages
+  jekyll-seo-tag
+  jekyll-sitemap
 
 BUNDLED WITH
    2.6.5
