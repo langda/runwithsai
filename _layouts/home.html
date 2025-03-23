@@ -1,11 +1,30 @@
 <!DOCTYPE html>
 <html lang="en" data-bs-theme="light">
-
 <head>
   <meta charset="utf-8" />
   
   <!-- Automatically generated SEO meta tags -->
   {% seo %}
+
+  <!-- SEO Meta Tags for Homepage -->
+  <meta name="description" content="{{ site.description }}" />
+  <meta name="keywords" content="{{ site.keywords }}" />
+  <meta name="author" content="{{ site.author }}" />
+
+  <!-- Open Graph Meta Tags for Social Media Sharing -->
+  <meta property="og:title" content="{{ site.title }}" />
+  <meta property="og:description" content="{{ site.description }}" />
+  <meta property="og:image" content="{{ site.baseurl }}/assets/images/about_us.jpg" />
+  <meta property="og:image:alt" content="Homepage Image" />
+  <meta property="og:url" content="{{ site.baseurl }}" />
+  <meta property="og:type" content="website" />
+
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="{{ site.title }}" />
+  <meta name="twitter:description" content="{{ site.description }}" />
+  <meta name="twitter:image" content="{{ site.baseurl }}/assets/images/about_us.jpg" />
+  <meta name="twitter:image:alt" content="Homepage Image" />
 
   <!-- Other meta tags -->
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -36,7 +55,6 @@
   <link rel="stylesheet" href="style.css" />
   <script src="assets/js/script.js" defer></script>
 </head>
-
 <body>
   <!-- Page loading spinner -->
   <div class="page-loading active">
@@ -75,5 +93,4 @@
   <!-- Main Theme Script -->
   <script src="assets/js/theme.min.js"></script>
 </body>
-
 </html>
