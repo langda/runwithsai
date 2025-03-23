@@ -1,6 +1,6 @@
 # Run with Sai
 
-Visit: [https://jekyll.juniorise.com/](https://jekyll.juniorise.com/)
+Visit: [https://runwithsai.com/](https://runwithsai.com/)
 
 ## For Developers
 
