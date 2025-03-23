@@ -1,7 +1,7 @@
 ---
 layout: event_detail 
 event_title: Preah Vihear Temple RUN 2nd Edition
-short_description: "**"PREAH VIHEAR TEMPLE RUN"** was the second edition of a running event that took place on **July 7, 2023** in the area of **Preah Vihear Temple, Preah Vihear Province**."
+short_description: "PREAH VIHEAR TEMPLE RUN was the second edition of a running event that took place on **July 7, 2023** in the area of **Preah Vihear Temple, Preah Vihear Province**."
 date: 2024-07-07
 year: 2024
 slug: "preah-vihear-temple-run-2nd-edition"
