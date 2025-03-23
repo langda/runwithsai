@@ -10,8 +10,8 @@
   <meta name="author" content="{{ site.author }}" />
 
   <!-- Open Graph Meta Tags for Social Media Sharing -->
-  <meta property="og:title" content="{{ page.og_title | default: page.title | default: site.title }}" />
-  <meta property="og:description" content="{{ page.og_description | default: page.description | default: site.description }}" />
+  <meta property="og:title" content="{{ page.og_title | default: page.event_title | default: site.title }}" />
+  <meta property="og:description" content="{{ page.og_description | default: page.short_description | default: site.description }}" />
   <meta property="og:image" content="{{ page.og_image | default: site.og_image }}" />
   <meta property="og:image:alt" content="{{ page.og_image_alt | default: 'Event Image' }}" />
   <meta property="og:url" content="{{ page.url | absolute_url }}" />
