@@ -1,6 +1,6 @@
 ---
 layout: event_detail 
-title: Run by Heart (2024)
+event_title: Run by Heart (2024)
 date: 2024-01-01
 year: 2024
 slug: "run-by-heart"

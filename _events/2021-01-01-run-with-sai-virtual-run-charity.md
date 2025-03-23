@@ -1,6 +1,7 @@
 ---
 layout: event_detail 
 event_title: Run the Sai Virtual Run. 2021
+short_description: "**Run With Sai Virtual Run 2021** was the charity running event where participants can run from anywhere. They could choose a category, track their run using Strava, and receive a finisher medal upon completion. This project was created to raise funds for charity and to promote healthcare through running. We believe that this event will also play a role in building the mindset of unity and social contribution."
 date: 2021-01-01
 year: 2021
 slug: "run-with-sai-virtual-run"
