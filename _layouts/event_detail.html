@@ -1,50 +1,44 @@
 <!DOCTYPE html>
-<html lang="en" data-bs-theme="light">
+<html lang="en">
 <head>
-  <meta charset="utf-8" />
+  <meta charset="utf-8">
   <title>{{ page.event_title }} - {{ site.title }}</title>
 
   <!-- Automatically generated SEO meta tags -->
   {% seo %}
 
-  <!-- SEO Meta Tags -->
-  <meta name="description" content="{{ page.short_description | default: site.description }}" />
-  <meta name="keywords" content="{{ page.keywords | default: site.keywords }}" />
-  <meta name="author" content="{{ site.author }}" />
+  <!-- Custom SEO Meta Tags -->
+  <meta name="description" content="{{ page.short_description | default: site.description }}">
+  <meta name="keywords" content="{{ page.keywords | default: site.keywords }}">
+  <meta name="author" content="{{ site.author }}">
 
-  <!-- Open Graph Meta Tags for Social Media Sharing -->
-  <meta property="og:title" content="{{ page.event_title | default: site.title }}" />
-  <meta property="og:description" content="{{ page.short_description | default: site.description }}" />
-  <meta property="og:image" content="{{ page.og_image | default: site.url }}{{ site.baseurl }}/assets/img/logo/about_us.jpg" />
-  <meta property="og:image:alt" content="{{ page.og_image_alt | default: 'Event Image' }}" />
-  <meta property="og:url" content="{{ page.url | absolute_url }}" />
-  <meta property="og:type" content="website" />
+  <!-- Open Graph for Social Media -->
+  <meta property="og:title" content="{{ page.event_title | default: site.title }}">
+  <meta property="og:description" content="{{ page.short_description | default: site.description }}">
+  <meta property="og:image" content="{{ page.og_image | default: site.url }}/assets/img/logo/about_us.jpg">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:type" content="website">
 
-  <!-- Twitter Card Meta Tags -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="{{ page.twitter_title | default: page.title | default: site.title }}" />
-  <meta name="twitter:description" content="{{ page.twitter_description | default: page.description | default: site.description }}" />
-  <meta name="twitter:image" content="{{ page.twitter_image | default: site.twitter_image }}" />
-  <meta name="twitter:image:alt" content="{{ page.twitter_image_alt | default: 'Event Image' }}" />
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ page.event_title | default: site.title }}">
+  <meta name="twitter:description" content="{{ page.short_description | default: site.description }}">
+  <meta name="twitter:image" content="{{ page.og_image | default: site.url }}/assets/img/logo/about_us.jpg">
 
-  <!-- Other meta tags and links -->
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/theme.min.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/style.css">
 
-  <!-- Theme switcher (color modes) -->
+  <!-- Scripts -->
   <script src="{{ site.baseurl }}/assets/js/theme-switcher.js"></script>
-
   <!-- Favicon and Touch Icons -->
   <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/assets/favicon/apple-touch-icon.png" />
   <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/assets/favicon/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/assets/favicon/favicon-16x16.png" />
   <link rel="manifest" href="{{ site.baseurl }}/assets/favicon/site.webmanifest" />
   <link rel="mask-icon" href="{{ site.baseurl }}/assets/favicon/safari-pinned-tab.svg" color="#6366f1" />
-  <link rel="shortcut icon" href="{{ site.baseurl }}/assets/favicon/favicon.ico" />
-  <meta name="msapplication-TileColor" content="#080032" />
-  <meta name="msapplication-config" content="{{ site.baseurl }}/assets/favicon/browserconfig.xml" />
-  <meta name="theme-color" content="#ffffff" />
-
-  <!-- Vendor Styles -->
+  <link rel="shortcut icon" href="{{ site.baseurl }}/assets/favicon/favicon.ico" /><!-- Vendor Styles -->
+    <!-- Vendor Styles -->
   <link rel="stylesheet" media="screen" href="{{ site.baseurl }}/assets/vendor/boxicons/css/boxicons.min.css" />
   <link rel="stylesheet" media="screen" href="{{ site.baseurl }}/assets/vendor/swiper/swiper-bundle.min.css" />
   <link rel="stylesheet" media="screen" href="{{ site.baseurl }}/assets/vendor/lightgallery/css/lightgallery-bundle.min.css" />
@@ -55,12 +49,8 @@
 
   <!-- Custom Styles -->
   <link rel="stylesheet" href="{{ site.baseurl }}/style.css" />
-  <script src="{{ site.baseurl }}/assets/js/script.js" defer></script>
 
-  <!-- Custom Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@700&family=Kantumruy:wght@400;700&family=Hanuman:wght@400;700&display=swap" rel="stylesheet">
-</head>
-<body>
+  <body>
   <!-- Back to Events Button (Top Left) -->
   <div class="container-fluid py-3 bg-light">
     <div class="container">
