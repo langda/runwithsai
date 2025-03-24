@@ -1,6 +1,7 @@
 ---
 layout: event_detail 
 event_title: Run by Heart (2024)
+short_description: "RUN BY HEART was the running for charity campaign which is created to raise donations for charity and to promote healthcare through running."
 date: 2024-01-01
 year: 2024
 slug: "run-by-heart"

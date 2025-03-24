@@ -1,7 +1,7 @@
 ---
 layout: event_detail 
 event_title: Run By Heart – 2nd Edition
-short_description: " Run by Heart Actual Run**៖ ជាការកម្មវិធីរត់ពិសេសដែលមានចម្ងាយ **៤០០ ម៉ែត្រ** ដែលធ្វើនៅ **ពហុកីឡដ្ឋានជាតិអូឡាំពិក**។ អ្នកចូលរួមត្រូវចាប់ដៃគូជាមួយកុមារអូទីហ្សឹមដើម្បីរត់ជុំវិញទីលានមួយជុំ។ អ្នកបញ្ចប់ការរត់ទាំងអស់ នឹងទទួលបានមេដាយអនុស្សាវរីយ៍។"
+short_description: " Run by Heart Actual Run៖ ជាការកម្មវិធីរត់ពិសេសដែលមានចម្ងាយ ៤០០ ម៉ែត្រ ដែលធ្វើនៅ ពហុកីឡដ្ឋានជាតិអូឡាំពិក។"
 date: 2025-05-31
 year: 2025
 slug: "run-by-heart-2nd-edition"

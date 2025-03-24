@@ -1,7 +1,7 @@
 ---
 layout: event_detail 
 event_title: KOH KER HERITAGE TRAIL
-short_description: "**“KOH KER HERITAGE TRAIL”** is a running event that took place on **21st September 2024** in Koh Ker Temple Heritage Site to celebrate the **1st anniversary** of the insertion of **Koh Ker Temple** on the World Heritage List, **September 17, 2023 - September 17, 2024**."
+short_description: "KOH KER HERITAGE TRAIL is a running event that took place on 21st September 2024 in Koh Ker Temple Heritage Site to celebrate the 1st anniversary..."
 date: 2024-09-21
 year: 2024
 slug: "koh-ker-heritage-trail"
