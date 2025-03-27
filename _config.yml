@@ -7,8 +7,8 @@ author: "Run with Sai Team"
 
 # Open Graph and Twitter Image Defaults
 # Customizable per-page or event
-og_image: "assets/images/about_us.jpg"
-twitter_image: "assets/images/about_us.jpg"
+og_image: "assets/img/logo/about_us.jpg"
+twitter_image: "assets/img/logo/about_us.jpg"
 
 # SEO Tags - You can set unique images or titles for each page/event by specifying them in front matter
 # Example for a specific page or event:

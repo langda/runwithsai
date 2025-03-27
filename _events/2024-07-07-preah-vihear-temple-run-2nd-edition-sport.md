@@ -1,10 +1,33 @@
 ---
 layout: event_detail 
 event_title: Preah Vihear Temple RUN 2nd Edition
-short_description: "PREAH VIHEAR TEMPLE RUN was the second edition of a running event that took place on **July 7, 2023** in the area of **Preah Vihear Temple, Preah Vihear Province**."
+short_description: "PREAH VIHEAR TEMPLE RUN was the second edition of a running event that took place on July 7, 2023..."
 date: 2024-07-07
 year: 2024
 slug: "preah-vihear-temple-run-2nd-edition"
+images:
+  - media/events/preah_vihear_temple_run/second_edition/second_edition1.jpg
+  - media/events/preah_vihear_temple_run/second_edition/second_edition2.jpg
+  - media/events/preah_vihear_temple_run/second_edition/second_edition3.jpg
+  - media/events/preah_vihear_temple_run/second_edition/second_edition4.jpg
+  - media/events/preah_vihear_temple_run/second_edition/second_edition5.jpg
+  - media/events/preah_vihear_temple_run/second_edition/second_edition6.jpg
+  - media/events/preah_vihear_temple_run/second_edition/second_edition7.jpg
+  - media/events/preah_vihear_temple_run/second_edition/second_edition8.jpg
+  - media/events/preah_vihear_temple_run/second_edition/second_edition9.jpg
+  - media/events/preah_vihear_temple_run/second_edition/second_edition10.jpg
+  - media/events/preah_vihear_temple_run/second_edition/second_edition11.jpg
+  - media/events/preah_vihear_temple_run/second_edition/second_edition12.jpg
+  - media/events/preah_vihear_temple_run/second_edition/second_edition13.jpg
+  - media/events/preah_vihear_temple_run/second_edition/second_edition14.jpg
+  - media/events/preah_vihear_temple_run/second_edition/second_edition15.jpg
+  - media/events/preah_vihear_temple_run/second_edition/second_edition16.jpg
+  - media/events/preah_vihear_temple_run/second_edition/second_edition17.jpg
+  - media/events/preah_vihear_temple_run/second_edition/second_edition18.jpg
+  - media/events/preah_vihear_temple_run/second_edition/second_edition19.jpg
+  - media/events/preah_vihear_temple_run/second_edition/second_edition20.jpg
+  - media/events/preah_vihear_temple_run/second_edition/second_edition21.jpg
+  - media/events/preah_vihear_temple_run/second_edition/second_edition22.jpg
 ---
  **"PREAH VIHEAR TEMPLE RUN"** was the second edition of a running event that took place on **July 7, 2023** in the area of **Preah Vihear Temple, Preah Vihear Province**.
  
