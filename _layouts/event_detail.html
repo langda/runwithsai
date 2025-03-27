@@ -8,30 +8,47 @@
   {% seo %}
 
   <!-- SEO Meta Tags -->
-  <meta name="description" content="{{ page.short_description | default: site.description }}" />
-  <meta name="keywords" content="{{ page.keywords | default: site.keywords }}" />
+  <title>{{ page.event_title }} - {{ site.title }}</title>
+  <meta name="description" content="{{ page.short_description | strip_html | truncate: 160 }}" />
+  <meta name="keywords" content="marathon, run, event, {{ page.event_title }}, Cambodia" />
   <meta name="author" content="{{ site.author }}" />
-
-  <!-- Open Graph Meta Tags for Social Media Sharing -->
-  <meta property="og:title" content="{{ page.event_title | default: site.title }}" />
-  <meta property="og:description" content="{{ page.short_description | default: site.description }}" />
-  <meta property="og:image" content="{{ page.og_image | default: site.url }}{{ site.baseurl }}/assets/img/logo/about_us.jpg" />
-  <meta property="og:image:alt" content="{{ page.og_image_alt | default: 'Event Image' }}" />
-  <meta property="og:url" content="{{ page.url | absolute_url }}" />
-  <meta property="og:type" content="website" />
-
+ 
+  <!-- Open Graph / Facebook Meta Tags -->
+  <meta property="og:type" content="event" />
+  <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}/events/{{ page.slug }}/" />
+  <meta property="og:title" content="{{ page.event_title }} - {{ site.title }}" />
+  <meta property="og:description" content="{{ page.short_description | strip_html | truncate: 160 }}" />
+  {% if page.images and page.images.size > 0 %}
+    <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/{{ page.images[0] }}" />
+  {% else %}
+    <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/assets/img/logo/about_us.jpg" />
+  {% endif %}
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="{{ page.event_title }} event image" />
+  <meta property="og:site_name" content="{{ site.title }}" />
+  <meta property="event:start_time" content="{{ page.date | date_to_xmlschema }}" />
+ 
   <!-- Twitter Card Meta Tags -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="{{ page.twitter_title | default: page.title | default: site.title }}" />
-  <meta name="twitter:description" content="{{ page.twitter_description | default: page.description | default: site.description }}" />
-  <meta name="twitter:image" content="{{ page.twitter_image | default: site.twitter_image }}" />
-  <meta name="twitter:image:alt" content="{{ page.twitter_image_alt | default: 'Event Image' }}" />
+  <meta name="twitter:title" content="{{ page.event_title }} - {{ site.title }}" />
+  <meta name="twitter:description" content="{{ page.short_description | strip_html | truncate: 160 }}" />
+  {% if page.images and page.images.size > 0 %}
+    <meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}/{{ page.images[0] }}" />
+  {% else %}
+    <meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}/assets/img/logo/about_us.jpg" />
+  {% endif %}
+  <meta name="twitter:image:alt" content="{{ page.event_title }} event image" />
+ 
+  <!-- Rest of your head content from home.html -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="assets/js/theme-switcher.js"></script>
 
   <!-- Other meta tags and links -->
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <!-- Theme switcher (color modes) -->
-  <script src="{{ site.baseurl }}/assets/js/theme-switcher.js"></script>
+  <!-- <script src="{{ site.baseurl }}/assets/js/theme-switcher.js"></script> -->
 
   <!-- Favicon and Touch Icons -->
   <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/assets/favicon/apple-touch-icon.png" />
