@@ -22,12 +22,14 @@ images:
 
 ថវិកាទាំងអស់ ដែលបានមកពីការចុះឈ្មោះនឹងត្រូវបរិច្ចាគទៅអង្គការសាលារៀនទន្សាយ ដែលជាអង្គការមើលថែទាំ និងបណ្តុះបណ្តាលកុមារអូទីស្សឹម។ យើងជឿជាក់ថាព្រឹត្តិការណ៍នេះ នឹងដើរតួនាទីក្នុងការជំរុញផ្នត់គំនិតនៃការរួមចំណែកក្នុងសកម្មភាពសង្គមផងដែរ។
 
-- ចូលរួមបរិច្ចាគទៅកាន់អង្គការសាលាទន្សាយតាមរយៈ ស្កេន QR code ឬលេខគណនីធនាគាខាងក្រោម៖
-- **គណនី (ACLEDA)**: Rabbit School-Run by Heart with Sai
-- **លេខគណនី (ACLEDA)**: 3600-05-331082-14
-<img src="{{ site.baseurl }}/rabbit-school-run-by-heart-qr.jpg" alt="Rabbit School QR" style="width: 270px; height: 270px; margin-top: 20px;">
-
-
+<div class="donate-container">
+  <div>
+    <p>ចូលរួមបរិច្ចាគទៅកាន់អង្គការសាលាទន្សាយតាមរយៈ ស្កេន QR code ឬលេខគណនីធនាគាខាងក្រោម</p>
+    <p><strong>គណនី (ACLEDA):</strong> Rabbit School-Run by Heart with Sai</p>
+    <p><strong>លេខគណនី (ACLEDA):</strong> 3600-05-331082-14</p>
+  </div>
+  <img src="{{ site.baseurl }}/rabbit-school-run-by-heart-qr.jpg" alt="Rabbit School QR" class="qr-hover qr-image">
+</div>
 
 
 **កម្មវិធី៖**
@@ -70,19 +72,23 @@ images:
 📌 AGE CATEGORIES: Participants of all categories must be **13 years** of age or older on race day
 
 
-----
+
+<hr style="margin-top: 40px; margin-bottom: 40px; border: 1px solid grey;"/>
+
 
 **"RUN BY HEART"** is a charity running campaign created to raise donations for charity and promote healthcare through running. This is the second edition, which will take place on **May 31, 2025**, at the Olympic National Stadium. 
 
 All proceeds from the registration fees will be donated to Rabbit School, a school dedicated to the care and training of children with autism. We believe that this event will also play a role in fostering a mindset of unity and social contribution.
 
 
-- Donate to Rabbit School Organization for the future of autism kids: through account number or QR code:
-<img src="{{ site.baseurl }}/rabbit-school-run-by-heart-qr.jpg" alt="Rabbit School QR" style="width: 270px; height: 270px; margin-top: 20px;">
-
-
-- **Account Name (ACLEDA)**: Rabbit School-Run by Heart with Sai
-- **Account Number (ACLEDA)**: 3600-05-331082-14
+<div class="donate-container">
+  <div>
+    <p>Donate to Rabbit School Organization for the future of autism kids: through account number or QR code</p>
+    <p><strong>Account Name (ACLEDA):</strong> Rabbit School-Run by Heart with Sai</p>
+    <p><strong>Account Number (ACLEDA):</strong> 3600-05-331082-14</p>
+  </div>
+  <img src="{{ site.baseurl }}/rabbit-school-run-by-heart-qr.jpg" alt="Rabbit School QR" class="qr-hover qr-image">
+</div>
 
 
 **RUN BY HEART PROGRAM:**
