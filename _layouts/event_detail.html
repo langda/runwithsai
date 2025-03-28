@@ -102,32 +102,33 @@
       <div class="col-12 col-lg-8 mx-auto">
         <div class="content fs-6">
           {{ content }}
-        </div>
-
-        <!-- Event Images (if available) -->
-        {% if page.images.size > 0 %}
-        <div class="col-12 mt-5">
-          <h3 class="text-dark fw-bold mb-4">Event Gallery</h3>
-          <div class="row g-4">
-            {% for image in page.images limit:4 %}
-              <div class="col-md-6 mb-3">
-                <div class="image-container">
-                  <img src="{{ site.baseurl }}/{{ image }}" alt="Event Image {{ forloop.index }}" class="img-fluid rounded" onclick="openImageModal('event-gallery', '{{ forloop.index0 }}')" />
-                  {% if forloop.last and page.images.size > 4 %}
-                    <div class="image-overlay" onclick="openImageModal('event-gallery', '{{ forloop.index0 }}')">
-                      <h4 class="text-white mb-0">
-                        +<span id="remainingCount">{{ page.images.size | minus: 4 }}</span>
-                        <i class="bx bx-camera ms-2"></i>
-                      </h4>
+          <div class="col-12 mt-5">
+            <h3 class="text-dark fw-bold mb-4">Event Gallery</h3>
+            <div class="mt-4">
+              <div class="row row-cols-2 g-3">
+                {% assign total_images = page.images | size %}
+                {% for image in page.images limit:4 %}
+                  {% assign index = forloop.index0 %}
+                  <div class="col">
+                    <div class="position-relative">
+                      <img src="{{ site.baseurl }}/{{ image }}" alt="Event Image {{ forloop.index }}" class="img-fluid rounded" onclick="openImageModal('event-gallery', '{{ index }}')" />
+                      {% if forloop.last and total_images > 4 %}
+                        <div class="image-overlay" onclick="openImageModal('event-gallery', '{{ index }}')">
+                          <h4 class="text-white mb-0">
+                            +{{ total_images | minus: 4 }} <i class="bx bx-camera ms-2"></i>
+                          </h4>
+                        </div>
+                      {% endif %}
                     </div>
-                  {% endif %}
-                </div>
-              </div>
-            {% endfor %}
+                  </div>
+                {% endfor %}
+              </div>             
+            </div>
           </div>
         </div>
 
-        <!-- Image Modal -->
+    <!-- Image Modal -->
+      {% if page.images.size > 0 %}
         <div id="imageModalevent-gallery" class="modal fade" tabindex="-1" aria-hidden="true" data-images='{{ page.images | jsonify }}'>
           <div class="modal-dialog modal-dialog-centered modal-lg">
             <div class="modal-content bg-transparent border-0">
