@@ -1,31 +1,12 @@
 body {
   font-family: 'Kantumruy', 'Roboto', 'Arial', sans-serif;
-  color: #333;
-  background-color: #fff;
-  transition: background-color 0.3s, color 0.3s;
 }
 
-[data-bs-theme="dark"] body {
-  color: #f8f9fa;
-  background-color: #121212;
-}
-
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Kantumruy', 'Roboto', 'Arial', serif;
-  color: #333;
-}
-
-[data-bs-theme="dark"] h1,
-[data-bs-theme="dark"] h2,
-[data-bs-theme="dark"] h3,
-[data-bs-theme="dark"] h4,
-[data-bs-theme="dark"] h5,
-[data-bs-theme="dark"] h6 {
-  color: #f8f9fa;
 }
 
 .hero-section {
-  background-color: #f8f9fa;
   padding: 4rem 0;
   text-align: center;
 }

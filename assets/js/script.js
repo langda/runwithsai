@@ -86,13 +86,17 @@ document.addEventListener("DOMContentLoaded", function () {
   // Function to update the modal image and counter
   function updateModalImage(sectionName, images) {
     if (currentIndex >= 0 && currentIndex < images.length) {
+      // Ensure correct image URL extraction
+      const imageUrl = images[currentIndex].url ? images[currentIndex].url : images[currentIndex];
+  
       // Update the image source
-      document.getElementById(`modalImage${sectionName}`).src = images[currentIndex];
-
-      // Display the current image index (1-based)
+      document.getElementById(`modalImage${sectionName}`).src = imageUrl;
+  
+      // Update counter
       document.getElementById(`imageCount${sectionName}`).innerText = `${currentIndex + 1} / ${images.length}`;
     }
   }
+  
 
   // Function to navigate to the previous image
   function prevImage(sectionName) {
