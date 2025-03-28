@@ -28,7 +28,6 @@ images:
   - media/events/koh_ker_heritage_trail/koh_ker_heritage_trail21.jpg
   - media/events/koh_ker_heritage_trail/koh_ker_heritage_trail22.jpg
   - media/events/koh_ker_heritage_trail/koh_ker_heritage_trail23.jpg
-  - media/events/koh_ker_heritage_trail/koh_ker_heritage_trail24.jpg
 ---
 **“KOH KER HERITAGE TRAIL”** is a running event that took place on **21st September 2024** in Koh Ker Temple Heritage Site to celebrate the **1st anniversary** of the insertion of **Koh Ker Temple** on the World Heritage List, **September 17, 2023 - September 17, 2024**.
 
